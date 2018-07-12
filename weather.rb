@@ -31,7 +31,7 @@ end
 
 hash = {:city => "Burbank", :description => "Partly Cloudy", :temperature => 88}
 hash.each do |key, value|
-puts "The city is #{weather}. The description is #{weather}. The temperature is #{weather}."
+puts "The city is #{key}. The description is #{value}. The temperature is #{weather}."
 end 
 
 
