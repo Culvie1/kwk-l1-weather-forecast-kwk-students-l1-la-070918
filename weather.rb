@@ -11,7 +11,7 @@ def location(weather)
 	weather = {
 	:city => "Burbank",
 	:description => "Partly Cloudy",
-	:temperature_farenheit => 82
+	:temperature_farenheit => 88
 	}
 end
 
@@ -22,14 +22,14 @@ end
   
   city = "Burbank"
 	description = "Partly Cloudy"
-	temperature_farenheit = 82
+	temperature_farenheit = 88
 	puts "The weather in #{city} is #{description}. The temperature is #{temperature_farenheit} degrees Farenheit." 
 
 #4. Write a method that takes in the weather hash as an argument. 
 # You'll want to use the each method to iterate over the hash and print out
 # `The city is New York.` `The description is Partly Cloudy.` `The temperature is 66.3.`
 
-hash = ["Burbank", "Partly Cloudy", 82]
+hash = ["Burbank", "Partly Cloudy", 88]
 hash.each do |weather|
 puts "The city is #{weather}. The description is #{weather}. The temperature is #{weather}."
 end 
