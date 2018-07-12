@@ -22,7 +22,7 @@ end
   city => "Burbank"
 	description => "Partly Cloudy"
 	temperature_farenheit => 82
-	puts "The weather in "
+	puts "The weather in #{city} is #{partly Cloudy"
 
 #4. Write a method that takes in the weather hash as an argument. 
 # You'll want to use the each method to iterate over the hash and print out
