@@ -32,7 +32,7 @@ end
 hash = ["Burbank", "Partly Cloudy", 82]
 hash.each do |weather|
 puts "The city is #{weather}. The description is #{weather}. The temperature is #{weather}."
-
+end 
 
 
 
