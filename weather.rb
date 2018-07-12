@@ -10,8 +10,8 @@
 def location(weather)
 	weather = {
 	:city => "Burbank"
-	:description => ""
-	:temperature_farenheit =>
+	:description => "Partly Cloudy"
+	:temperature_farenheit => 
 	}
 end
 
