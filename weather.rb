@@ -29,7 +29,7 @@ end
 # `The city is New York.` `The description is Partly Cloudy.` `The temperature is 66.3.`
 weather = [Burbank, Partly Cloudy, 82]
 weather.each do |a|
-  The city is |a|
+  The city is |a|. The description is |a|. The temperature is |a|. 
 
 
 
