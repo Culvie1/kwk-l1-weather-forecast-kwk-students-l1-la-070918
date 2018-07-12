@@ -31,7 +31,7 @@ end
 
 hash = ["Burbank", "Partly Cloudy", 88]
 hash.each do |weather|
-count =+ 1
+weather =+ 1
 puts "The city is #{weather}. The description is #{weather}. The temperature is #{weather}."
 end 
 
