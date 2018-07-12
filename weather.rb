@@ -31,7 +31,7 @@ end
 
 array = ["Burbank", "Partly Cloudy", 82]
 array.each do |weather|
-puts The city is "#{weather}". The description is "#{weather}". The temperature is "#{weather}".
+puts "The city is #{weather}. The description is #{weather}. The temperature is #{weather}."
 
 
 
