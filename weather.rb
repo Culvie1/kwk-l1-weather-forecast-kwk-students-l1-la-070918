@@ -30,7 +30,7 @@ end
 # `The city is New York.` `The description is Partly Cloudy.` `The temperature is 66.3.`
 
 hash = ["Burbank", "Partly Cloudy", 88]
-hash.each do |weather|
+hash.each do |city => "Burbank", description => "Partly Cloudy", temperature => 88|
 puts "The city is #{weather}. The description is #{weather}. The temperature is #{weather}."
 end 
 
