@@ -29,7 +29,7 @@ end
 # `The city is New York.` `The description is Partly Cloudy.` `The temperature is 66.3.`
 array = ["Burbank", "Partly Cloudy", 82]
 array.each do |weather|
-puts The city is |a|. The description is |a|. The temperature is |a|. 
+puts The city is |weather|. The description is |weather|. The temperature is |weather|. 
 
 
 
