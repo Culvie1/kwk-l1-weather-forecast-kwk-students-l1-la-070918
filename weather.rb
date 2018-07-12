@@ -28,7 +28,7 @@ end
 # You'll want to use the each method to iterate over the hash and print out
 # `The city is New York.` `The description is Partly Cloudy.` `The temperature is 66.3.`
 array = ["Burbank", "Partly Cloudy", 82]
-weather.each do |a|
+array.each do |a|
   The city is |a|. The description is |a|. The temperature is |a|. 
 
 
